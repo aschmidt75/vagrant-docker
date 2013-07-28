@@ -1,6 +1,6 @@
 module VagrantDockerCommand
 
-  class DockerCommand < Vagrant.plugin("2", "command")
+  class DockerCommand < Vagrant.plugin('2', 'command')
     attr_accessor :env
 
     def execute
