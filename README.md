@@ -1,7 +1,7 @@
 vagrant-docker
 ==============
 
-This is a simple Vagrant Command Plugin for accessing docker within a vm. Currently onyl the :default vm is supported.
+This is a simple Vagrant Command Plugin for accessing docker within a vm. Currently only the :default vm is supported.
 
 
 ##Dependencies##
@@ -49,6 +49,7 @@ b338e86f5c97        busybox:latest      /bin/sh             9 seconds ago       
 
 
 ##Todos##
+ * tests
  * implement multi vm environment support
  * additional commands and summary formatting for commands like ps, images, ...
  * docker provisioner
