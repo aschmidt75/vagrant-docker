@@ -1,7 +1,8 @@
 require 'vagrant-docker/version'
 
 module VagrantDockerCommand
-  class Plugin < Vagrant.plugin("2")
+  class Plugin < Vagrant.plugin('2')
+
     name 'Vagrant Docker Command'
 
     command 'docker' do
